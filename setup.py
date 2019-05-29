@@ -143,7 +143,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=[],  # Optional
+    install_requires=['Cython>=0.26.1', "nose>=1.3.7", "numpy>=1.13.1", "python-dateutil>=2.6.1", "pytz>=2017.2"],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
